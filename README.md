@@ -1,10 +1,13 @@
 # 프로젝트
 
 ### [Car-Moving-DQN-Unity](https://github.com/nanasin120/car_moving_Unity_RL_DQN)
-* **Description:** DQN을 이용해 벽이 부딫히지 않고 트랙을 따라 움직이는 자동차 학습
-* **Key Achievement:**
+* **설명:** DQN을 이용해 벽이 부딫히지 않고 트랙을 따라 움직이는 자동차 학습
+* **일정:** 5일
+* **주요 성과:**
     * 유니티 mlagent환경 이해 및 보상 설정
     * DQN이해 및 구현
+
+# 개인 공부
 
 ### [LeNet-5-Pytorch](https://github.com/nanasin120/LeNet5-Pytorch-)
 * **Description:** Yann LeCun의 1998년 논문 아키텍처를 원형 그대로 구현
