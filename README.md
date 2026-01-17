@@ -9,6 +9,9 @@
 
 # 개인 공부
 
+### [Deep Learning Paper Study](https://github.com/nanasin120/Deep-Learning-Paper-Study/blob/main/README.md)
+* **Description:** 논문 보고 공부한 내용중 중요한 부분 간단하게
+    * non-local operation
 ### [LeNet-5-Pytorch](https://github.com/nanasin120/LeNet5-Pytorch-)
 * **Description:** Yann LeCun의 1998년 논문 아키텍처를 원형 그대로 구현
 * **Key Achievement:**
