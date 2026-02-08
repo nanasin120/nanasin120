@@ -1,9 +1,15 @@
 # 프로젝트
 
+### [BEV-LSS-UNITY-PYTORCH](https://github.com/nanasin120/BEV-LSS-UNITY-PYTORCH)
+* **설명:** LSS논문을 바탕으로 이미지와 외부행렬, 내부 행렬만을 이용해 자동차 외부 환경을 3D Voxel로 생성
+* **주요 내용:**
+     * 실시간 BEV (조감도) 생성
+     * end-to-end 모델로 2차원 내용을 3차원으로 올리기
+     * CrossEntropy와 DiceLoss를 이용해 IOU 개선
+
 ### [Car-Moving-DQN-Unity](https://github.com/nanasin120/car_moving_Unity_RL_DQN)
 * **설명:** DQN을 이용해 벽이 부딫히지 않고 트랙을 따라 움직이는 자동차 학습
-* **일정:** 5일
-* **주요 성과:**
+* **주요 내용:**
     * 유니티 mlagent환경 이해 및 보상 설정
     * DQN이해 및 구현
 
