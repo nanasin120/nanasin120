@@ -6,7 +6,7 @@
 ### [BEV-LSS-UNITY-PYTORCH](https://github.com/nanasin120/BEV-LSS-UNITY-PYTORCH)
 * **설명:** LSS논문을 바탕으로 이미지와 외부행렬, 내부 행렬만을 이용해 자동차 외부 환경을 3D Voxel로 생성
 * **주요 내용:**
-     * 실시간 BEV (조감도) 생성
+     * 실시간 3D Voxel 생성
      * end-to-end 모델로 2차원 내용을 3차원으로 올리기
      * CrossEntropy와 DiceLoss를 이용해 IOU 개선
 
