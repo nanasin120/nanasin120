@@ -1,7 +1,11 @@
 # 프로젝트
 
 ### [3D_Voxel_Map_VoxFormer](https://github.com/nanasin120/3D_Voxel_Map_VoxFormer)
-* **진행중**
+* **설명 :** VoxFormer논문을 바탕으로 이미지와 외부행렬, 내부 행렬만을 이용해 자동차 외부 환경을 3D Voxel로 생성
+* **주요 내용:**
+    * 가능성이 있는 복셀만을 Transformer에 사용해 연산량 감소
+    * Transformer아키텍처를 이용한 정보 강화
+    * Conv3d를 이용해 Transformer를 통해 얻은 복셀의 정보를 주위로 퍼트려 3D Voxel 맵 완성
 
 ### [BEV-LSS-UNITY-PYTORCH](https://github.com/nanasin120/BEV-LSS-UNITY-PYTORCH)
 * **설명:** LSS논문을 바탕으로 이미지와 외부행렬, 내부 행렬만을 이용해 자동차 외부 환경을 3D Voxel로 생성
