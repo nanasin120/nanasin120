@@ -1,5 +1,12 @@
 # 프로젝트
 
+### [Monodepth2](https://github.com/nanasin120/Monodepth2)
+* **설명 :** Monodepth2논문을 바탕으로 자기-지도 학습을 통해 이미지의 깊이감 추정
+* **주요 내용:**
+    * 자기-지도 학습을 통해 정답지 없이 스스로 학습하는 모델 
+    * 재투영을 통한 가상 이미지 생성
+    * 부족한 데이터 증강
+
 ### [3D_Voxel_Map_VoxFormer](https://github.com/nanasin120/3D_Voxel_Map_VoxFormer)
 * **설명 :** VoxFormer논문을 바탕으로 이미지와 외부행렬, 내부 행렬만을 이용해 자동차 외부 환경을 3D Voxel로 생성
 * **주요 내용:**
