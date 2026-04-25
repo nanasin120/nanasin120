@@ -1,5 +1,11 @@
 # 프로젝트
 
+### [CroCo](https://github.com/nanasin120/CroCo)
+* **설명 :** CroCo논문을 바탕으로 자기-지도 학습을 통해 마스킹된 이미지 복원
+* **주요 내용:**
+    * 자기-지도 학습을 통해 마스킹된 이미지 복원 
+    * 시점이 다른 이미지들을 Encoding함으로서 Encoder에는 이미지의 정보가 쌓이게 됨
+
 ### [Monodepth2](https://github.com/nanasin120/Monodepth2)
 * **설명 :** Monodepth2논문을 바탕으로 자기-지도 학습을 통해 이미지의 깊이감 추정
 * **주요 내용:**
