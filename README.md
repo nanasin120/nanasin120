@@ -1,5 +1,12 @@
 # 프로젝트
 
+## [MonoMirror](https://github.com/nanasin120/MonoMirror)
+* **설명 :** DUSt3R을 기반으로 자기-지도학습을 통해 360도 촬영한 물체의 point cloud를 생성
+* **주요 내용:**
+    * 자기-지도 학습을 통해 point cloud 생성
+    * 특징 재투영을 통해 학습
+    * 대략 40장 정도의 이미지를 학습에 이용
+
 ### [CroCo](https://github.com/nanasin120/CroCo)
 * **설명 :** CroCo논문을 바탕으로 자기-지도 학습을 통해 마스킹된 이미지 복원
 * **주요 내용:**
