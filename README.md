@@ -1,11 +1,20 @@
 # 프로젝트
 
-## [MonoMirror](https://github.com/nanasin120/MonoMirror)
-* **설명 :** DUSt3R을 기반으로 자기-지도학습을 통해 360도 촬영한 물체의 point cloud를 생성
+## [MonoMirror](https://github.com/nanasin120/MonoMirror) 진행중
+* **설명 :** 자기-지도학습 방식을 이용한 3D point cloud 생성 모델
 * **주요 내용:**
-    * 자기-지도 학습을 통해 point cloud 생성
-    * 특징 재투영을 통해 학습
+    * DINOv2를 Encoder로 이용
+    * RGB 재투영과 Feature 재투영 동시 이용
     * 대략 40장 정도의 이미지를 학습에 이용
+
+### [3D_Voxel_Map_VoxFormer](https://github.com/nanasin120/3D_Voxel_Map_VoxFormer)
+* **설명 :** VoxFormer논문을 바탕으로 이미지와 외부행렬, 내부 행렬만을 이용해 자동차 외부 환경을 3D Voxel로 생성
+* **주요 내용:**
+    * 가능성이 있는 복셀만을 Transformer에 사용해 연산량 감소
+    * Transformer아키텍처를 이용한 정보 강화
+    * Conv3d를 이용해 Transformer를 통해 얻은 복셀의 정보를 주위로 퍼트려 3D Voxel 맵 완성
+
+# 개인 공부
 
 ### [CroCo](https://github.com/nanasin120/CroCo)
 * **설명 :** CroCo논문을 바탕으로 자기-지도 학습을 통해 마스킹된 이미지 복원
@@ -20,13 +29,6 @@
     * 재투영을 통한 가상 이미지 생성
     * 부족한 데이터 증강
 
-### [3D_Voxel_Map_VoxFormer](https://github.com/nanasin120/3D_Voxel_Map_VoxFormer)
-* **설명 :** VoxFormer논문을 바탕으로 이미지와 외부행렬, 내부 행렬만을 이용해 자동차 외부 환경을 3D Voxel로 생성
-* **주요 내용:**
-    * 가능성이 있는 복셀만을 Transformer에 사용해 연산량 감소
-    * Transformer아키텍처를 이용한 정보 강화
-    * Conv3d를 이용해 Transformer를 통해 얻은 복셀의 정보를 주위로 퍼트려 3D Voxel 맵 완성
-
 ### [BEV-LSS-UNITY-PYTORCH](https://github.com/nanasin120/BEV-LSS-UNITY-PYTORCH)
 * **설명:** LSS논문을 바탕으로 이미지와 외부행렬, 내부 행렬만을 이용해 자동차 외부 환경을 3D Voxel로 생성
 * **주요 내용:**
@@ -39,8 +41,6 @@
 * **주요 내용:**
     * 유니티 mlagent환경 이해 및 보상 설정
     * DQN이해 및 구현
-
-# 개인 공부
 
 ### [Deep Learning Paper Study](https://github.com/nanasin120/Deep-Learning-Paper-Study/blob/main/README.md)
 * **Description:** 논문 보고 공부한 내용중 중요한 부분 간단하게 하려고 노력
