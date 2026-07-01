@@ -1,20 +1,26 @@
 # 프로젝트
 
 ## [MonoMirror](https://github.com/nanasin120/MonoMirror) 진행중
+
+<img width="336" height="336" alt="vis_epoch_500" src="https://github.com/user-attachments/assets/26cae321-6adf-4e71-9b88-99868cb6eb14" />
+
 * **설명 :** 자기-지도학습 방식을 이용한 3D point cloud 생성 모델
 * **주요 내용:**
     * DINOv2를 Encoder로 이용
     * RGB 재투영과 Feature 재투영 동시 이용
     * 대략 40장 정도의 이미지를 학습에 이용
 
-### [3D_Voxel_Map_VoxFormer](https://github.com/nanasin120/3D_Voxel_Map_VoxFormer)
-* **설명 :** VoxFormer논문을 바탕으로 이미지와 외부행렬, 내부 행렬만을 이용해 자동차 외부 환경을 3D Voxel로 생성
-* **주요 내용:**
-    * 가능성이 있는 복셀만을 Transformer에 사용해 연산량 감소
-    * Transformer아키텍처를 이용한 정보 강화
-    * Conv3d를 이용해 Transformer를 통해 얻은 복셀의 정보를 주위로 퍼트려 3D Voxel 맵 완성
+## [EdgeTraceNet](https://github.com/nanasin120/EdgeTraceNet) 진행중
 
-# 개인 공부
+<img width="448" height="224" alt="image" src="https://github.com/user-attachments/assets/4fb7e9b1-60e7-4af6-b4d3-ee233c52ae7b" />
+
+* **설명 :** 자기-지도학습 방식을 이용한 이미지 윤곽선 추출 모델
+* **주요 내용:**
+    * 외부 정답지 없이 오직 이미지 자체의 구조적 특징만으로 학습
+    * 픽셀 간의 관계를 수치화하여 윤곽선 정의
+    * 이미지 한 장으로도 최적화 가능
+
+# 논문을 통한 공부
 
 ### [CroCo](https://github.com/nanasin120/CroCo)
 * **설명 :** CroCo논문을 바탕으로 자기-지도 학습을 통해 마스킹된 이미지 복원
@@ -28,6 +34,13 @@
     * 자기-지도 학습을 통해 정답지 없이 스스로 학습하는 모델 
     * 재투영을 통한 가상 이미지 생성
     * 부족한 데이터 증강
+ 
+### [3D_Voxel_Map_VoxFormer](https://github.com/nanasin120/3D_Voxel_Map_VoxFormer)
+* **설명 :** VoxFormer논문을 바탕으로 이미지와 외부행렬, 내부 행렬만을 이용해 자동차 외부 환경을 3D Voxel로 생성
+* **주요 내용:**
+    * 가능성이 있는 복셀만을 Transformer에 사용해 연산량 감소
+    * Transformer아키텍처를 이용한 정보 강화
+    * Conv3d를 이용해 Transformer를 통해 얻은 복셀의 정보를 주위로 퍼트려 3D Voxel 맵 완성
 
 ### [BEV-LSS-UNITY-PYTORCH](https://github.com/nanasin120/BEV-LSS-UNITY-PYTORCH)
 * **설명:** LSS논문을 바탕으로 이미지와 외부행렬, 내부 행렬만을 이용해 자동차 외부 환경을 3D Voxel로 생성
