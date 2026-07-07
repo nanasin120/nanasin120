@@ -12,7 +12,7 @@
 
 ## [EdgeTraceNet](https://github.com/nanasin120/EdgeTraceNet) 진행중
 
-<img width="448" height="224" alt="image" src="https://github.com/user-attachments/assets/4fb7e9b1-60e7-4af6-b4d3-ee233c52ae7b" />
+<img width="2496" height="704" alt="image" src="https://github.com/user-attachments/assets/fda1911d-d503-4e95-b2f0-6a687e7a33de" />
 
 * **설명 :** 자기-지도학습 방식을 이용한 이미지 윤곽선 추출 모델
 * **주요 내용:**
