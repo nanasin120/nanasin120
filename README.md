@@ -1,6 +1,6 @@
 # 👋 Hello, I'm a Deep Learning Developer!
 
-> **"이론을 코드로 증명하며, 컴퓨터 비전과 강화학습 기반의 몰입형 기술을 탐구합니다."**
+> **"이론을 코드로 증명하며, 컴퓨터 비전을 탐구합니다."**
 
 <br>
 
@@ -30,7 +30,7 @@
 
 ### 🖼️ [EdgeTraceNet](https://github.com/nanasin120/EdgeTraceNet) `진행 중`
 * **한 줄 설명:** 자기지도학습 방식을 이용한 이미지 윤곽선(Edge) 추출 네트워크
-* **핵심 구현:** * `ResNet-18`을 백본으로 채택, 인접 픽셀(오른쪽/아래쪽) 간의 픽셀 관계성(Relationship Estimation) 파악을 통한 정밀 윤곽선 추출 구조 구현
+* **핵심 구현:** `ResNet-18`을 백본으로 채택, 인접 픽셀(오른쪽/아래쪽) 간의 픽셀 관계성(Relationship Estimation) 파악을 통한 정밀 윤곽선 추출 구조 구현
 * **Tech Stack:** `Python`, `PyTorch`
 * **Preview:**
   <img width="100%" alt="EdgeTraceNet Result" src="https://github.com/user-attachments/assets/fda1911d-d503-4e95-b2f0-6a687e7a33de" />
