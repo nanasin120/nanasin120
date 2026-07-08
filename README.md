@@ -1,72 +1,64 @@
-# 프로젝트
+# 👋 Hello, I'm a Deep Learning Developer!
 
-## [MonoMirror](https://github.com/nanasin120/MonoMirror) 진행중
+> **"이론을 코드로 증명하며, 컴퓨터 비전과 강화학습 기반의 몰입형 기술을 탐구합니다."**
 
-<img width="336" height="336" alt="vis_epoch_500" src="https://github.com/user-attachments/assets/26cae321-6adf-4e71-9b88-99868cb6eb14" />
+<br>
 
-* **설명 :** 자기-지도학습 방식을 이용한 3D point cloud 생성 모델
-* **주요 내용:**
-    * DINOv2를 Encoder로 이용
-    * RGB 재투영과 Feature 재투영 동시 이용
-    * 대략 40장 정도의 이미지를 학습에 이용
+## 🛠 Tech Stacks
 
-## [EdgeTraceNet](https://github.com/nanasin120/EdgeTraceNet) 진행중
+### 💻 Languages
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/> <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=C%2B%2B&logoColor=white"/>
 
-<img width="2496" height="704" alt="image" src="https://github.com/user-attachments/assets/fda1911d-d503-4e95-b2f0-6a687e7a33de" />
+### 🧠 Deep Learning & Engines
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=PyTorch&logoColor=white"/> <img src="https://img.shields.io/badge/Unity-FFFFFF?style=flat-square&logo=Unity&logoColor=black"/> <img src="https://img.shields.io/badge/Open3D-5DADE2?style=flat-square&logo=Open3D&logoColor=white"/>
 
-* **설명 :** 자기-지도학습 방식을 이용한 이미지 윤곽선 추출 모델
-* **주요 내용:**
-    * 외부 정답지 없이 오직 이미지 자체의 구조적 특징만으로 학습
-    * 픽셀 간의 관계를 수치화하여 윤곽선 정의
-    * 이미지 한 장으로도 최적화 가능
+### 🔧 Tools
+<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=Git&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=GitHub&logoColor=white"/> <img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=Notion&logoColor=white"/>
 
-# 논문을 통한 공부
+<br>
 
-### [CroCo](https://github.com/nanasin120/CroCo)
-* **설명 :** CroCo논문을 바탕으로 자기-지도 학습을 통해 마스킹된 이미지 복원
-* **주요 내용:**
-    * 자기-지도 학습을 통해 마스킹된 이미지 복원 
-    * 시점이 다른 이미지들을 Encoding함으로서 Encoder에는 이미지의 정보가 쌓이게 됨
+---
 
-### [Monodepth2](https://github.com/nanasin120/Monodepth2)
-* **설명 :** Monodepth2논문을 바탕으로 자기-지도 학습을 통해 이미지의 깊이감 추정
-* **주요 내용:**
-    * 자기-지도 학습을 통해 정답지 없이 스스로 학습하는 모델 
-    * 재투영을 통한 가상 이미지 생성
-    * 부족한 데이터 증강
- 
-### [3D_Voxel_Map_VoxFormer](https://github.com/nanasin120/3D_Voxel_Map_VoxFormer)
-* **설명 :** VoxFormer논문을 바탕으로 이미지와 외부행렬, 내부 행렬만을 이용해 자동차 외부 환경을 3D Voxel로 생성
-* **주요 내용:**
-    * 가능성이 있는 복셀만을 Transformer에 사용해 연산량 감소
-    * Transformer아키텍처를 이용한 정보 강화
-    * Conv3d를 이용해 Transformer를 통해 얻은 복셀의 정보를 주위로 퍼트려 3D Voxel 맵 완성
+## 🚀 Featured Projects
 
-### [BEV-LSS-UNITY-PYTORCH](https://github.com/nanasin120/BEV-LSS-UNITY-PYTORCH)
-* **설명:** LSS논문을 바탕으로 이미지와 외부행렬, 내부 행렬만을 이용해 자동차 외부 환경을 3D Voxel로 생성
-* **주요 내용:**
-     * 실시간 3D Voxel 생성
-     * end-to-end 모델로 2차원 내용을 3차원으로 올리기
-     * CrossEntropy와 DiceLoss를 이용해 IOU 개선
+### 👁️ [MonoMirror](https://github.com/nanasin120/MonoMirror) `진행 중`
+* **한 줄 설명:** 자기지도학습(Self-Supervised Learning) 방식을 이용한 3D Point Cloud 생성 모델
+* **핵심 구현:** * `ResNet-18` 아키텍처를 인코더로 커스텀하여 비지도 구조에서 Depth 및 Pose 추정 메커니즘 설계
+* **Tech Stack:** `Python`, `PyTorch`, `Open3D`
 
-### [Car-Moving-DQN-Unity](https://github.com/nanasin120/car_moving_Unity_RL_DQN)
-* **설명:** DQN을 이용해 벽이 부딫히지 않고 트랙을 따라 움직이는 자동차 학습
-* **주요 내용:**
-    * 유니티 mlagent환경 이해 및 보상 설정
-    * DQN이해 및 구현
+<br>
 
-### [Deep Learning Paper Study](https://github.com/nanasin120/Deep-Learning-Paper-Study/blob/main/README.md)
-* **Description:** 논문 보고 공부한 내용중 중요한 부분 간단하게 하려고 노력
-    * non-local operation
-    * Layer Normalization
-    * Deep_Residual_Learning_for_Image_Recognition
-### [LeNet-5-Pytorch](https://github.com/nanasin120/LeNet5-Pytorch-)
-* **Description:** Yann LeCun의 1998년 논문 아키텍처를 원형 그대로 구현
-* **Key Achievement:**
-    * 모든 Feature map을 연결하지 않고 특정 map끼리만 연결하는 원본 논문의 연결 방식 재현
+### 🖼️ [EdgeTraceNet](https://github.com/nanasin120/EdgeTraceNet) `진행 중`
+* **한 줄 설명:** 자기지도학습 방식을 이용한 이미지 윤곽선(Edge) 추출 네트워크
+* **핵심 구현:** * `ResNet-18`을 백본으로 채택, 인접 픽셀(오른쪽/아래쪽) 간의 픽셀 관계성(Relationship Estimation) 파악을 통한 정밀 윤곽선 추출 구조 구현
+* **Tech Stack:** `Python`, `PyTorch`
+* **Preview:**
+  <img width="100%" alt="EdgeTraceNet Result" src="https://github.com/user-attachments/assets/fda1911d-d503-4e95-b2f0-6a687e7a33de" />
 
-### [VGGNet-Pytorch: Research Paper Re-implementation](https://github.com/nanasin120/VGGNet-Pytorch)
-* **Description:** Oxford VGGNet(A-E)의 모든 구성을 PyTorch로 충실히 구현
-* **Key Achievement:**
-    * 깊은 모델(VGG-D/E)의 **기울기 소실 문제를 Batch Normalization 도입으로 해결**
-    * Learning Rate 스케줄링을 통한 학습 안정성 확보 및 성능 데이터 시각화
+<br>
+
+---
+
+## 📚 Paper Study & Re-implementation
+
+<details>
+<summary><b>🔥 클릭하여 논문 구현 및 연구 리포지토리 보기</b></summary>
+<br>
+
+| Category | Repository | Description |
+| :--- | :--- | :--- |
+| **Paper Archiving** | 📄 [Deep Learning Paper Study](https://github.com/nanasin120/Deep-Learning-Paper-Study/blob/main/README.md) | 주요 딥러닝 논문 분석 및 핵심 요약 아카이빙 |
+| **CNN Basics** | 🧠 [LeNet-5-Pytorch](https://github.com/nanasin120/LeNet5-Pytorch-) | CNN의 시초인 LeNet-5 구조 PyTorch 재구현 |
+| **CNN Basics** | 🧠 [VGGNet-Pytorch](https://github.com/nanasin120/VGGNet-Pytorch) | 3x3 필터를 깊게 쌓은 VGGNet 아키텍처 분석 및 구현 |
+| **Self-Supervised** | 👁️ [Monodepth2](https://github.com/nanasin120/Monodepth2) | 단안 카메라 기반 자기지도 딥스 추정 모델 연구 |
+| **Self-Supervised** | 👁️ [CroCo](https://github.com/nanasin120/CroCo) | Cross-view Completion 기반 3D 비전 프리트레이닝 연구 |
+| **3D & BEV** | 🚗 [3D Voxel Map VoxFormer](https://github.com/nanasin120/3D_Voxel_Map_VoxFormer) | 트랜스포머 기반 3D 복셀 시맨틱 세그멘테이션 분석 |
+| **3D & BEV** | 🚗 [BEV-LSS-UNITY-PYTORCH](https://github.com/nanasin120/BEV-LSS-UNITY-PYTORCH) | Lift-Splat-Shoot 기반 뷰 변환 엔진 및 Unity 연동 탐구 |
+
+</details>
+
+<br>
+
+---
+## 📈 GitHub Stats
+[![](-stats.svg?username=nanasin120&show_icons=true&theme=transparent)](https://github.com/anuraghazra/github-readme-stats)
