@@ -33,7 +33,8 @@
 * **핵심 구현:** `ResNet-18`을 백본으로 채택, 인접 픽셀(오른쪽/아래쪽) 간의 픽셀 관계성(Relationship Estimation) 파악을 통한 정밀 윤곽선 추출 구조 구현
 * **Tech Stack:** `Python`, `PyTorch`
 * **Preview:**
-  <img width="100%" alt="EdgeTraceNet Result" src="https://github.com/user-attachments/assets/fda1911d-d503-4e95-b2f0-6a687e7a33de" />
+  
+  <img width="900" height="912" alt="image" src="https://github.com/user-attachments/assets/cbc443ea-791c-458a-8818-fe32bcd8f84c" />
 
 <br>
 
