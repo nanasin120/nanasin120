@@ -34,7 +34,7 @@
 * **Tech Stack:** `Python`, `PyTorch`
 * **Preview:**
   
-  <img width="900" height="912" alt="image" src="https://github.com/user-attachments/assets/cbc443ea-791c-458a-8818-fe32bcd8f84c" />
+  <img width="908" height="916" alt="vis_epoch_500" src="https://github.com/user-attachments/assets/ab35ac34-f2ef-42de-a57d-27954fed6b24" />
 
 <br>
 
