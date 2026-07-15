@@ -28,13 +28,13 @@
 
 <br>
 
-### 🖼️ [EdgeTraceNet](https://github.com/nanasin120/EdgeTraceNet) `진행 중`
-* **한 줄 설명:** 자기지도학습 방식을 이용한 이미지 윤곽선(Edge) 추출 네트워크
+### 🖼️ [EdgeTraceNet](https://github.com/nanasin120/EdgeTraceNet) `완료`
+* **한 줄 설명:** 픽셀간의 연결성을 이용해 윤곽선을 추론하는 자기지도학습 모델
 * **핵심 구현:** `ResNet-18`을 백본으로 채택, 인접 픽셀(오른쪽/아래쪽) 간의 픽셀 관계성(Relationship Estimation) 파악을 통한 정밀 윤곽선 추출 구조 구현
 * **Tech Stack:** `Python`, `PyTorch`
 * **Preview:**
   
-  <img width="908" height="916" alt="vis_epoch_500" src="https://github.com/user-attachments/assets/ab35ac34-f2ef-42de-a57d-27954fed6b24" />
+  <img width="1292" height="1300" alt="ezgif com-gif-maker" src="https://github.com/user-attachments/assets/d033fe67-63b3-4b15-add3-b7cc19cb9bcc" />
 
 <br>
 
