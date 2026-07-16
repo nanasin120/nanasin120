@@ -36,6 +36,15 @@
   
   <img width="1292" height="1300" alt="ezgif com-gif-maker" src="https://github.com/user-attachments/assets/d033fe67-63b3-4b15-add3-b7cc19cb9bcc" />
 
+| Method / Stage | Best Threshold | Precision | Recall | F1-Score |
+| :--- | :---: | :---: | :---: |  :---: |
+| **EdgeTraceNet (Initial)** | 0.1 | 0.0187 | 1.000 | 0.0367 |
+| **EdgeTraceNet (100)** | 0.9 | 0.0466 | 0.2118 | 0.0764 |
+| **EdgeTraceNet (200)** | 0.9 | 0.0591 | 0.1834 | 0.0894 |
+| **EdgeTraceNet (300)** | 0.9 | 0.0547 | 0.1899 | 0.0849 |
+| **EdgeTraceNet (400)** | 0.9 | 0.0526 | 0.1943 | 0.0828 |
+| **EdgeTraceNet (500)** | 0.9 | 0.0531 | 0.1929 | 0.0833 |
+
 <br>
 
 ---
