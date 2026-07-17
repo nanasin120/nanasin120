@@ -23,7 +23,7 @@
 
 ### 👁️ [MonoMirror](https://github.com/nanasin120/MonoMirror) `in progress`
 * **One line description:** A 3D point cloud generation model using self-supervised learning.
-* **Key Implementation:** * Custom self-supervised depth & pose estimation pipeline leveraging a tailored ResNet-18 encoder architecture
+* **Key Implementation:** Custom self-supervised depth & pose estimation pipeline leveraging a tailored ResNet-18 encoder architecture
 * **Tech Stack:** `Python`, `PyTorch`, `Open3D`
 
 <br>
